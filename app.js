@@ -39,7 +39,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-const port = 3100
+const port = 3200
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
